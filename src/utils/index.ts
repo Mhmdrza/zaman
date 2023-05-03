@@ -9,9 +9,6 @@ export const isRtl = (): boolean => {
 }
 
 export const localizeNumber = (n: string | number) => {
-  if (process.env.NODE_ENV === 'test') {
-    return n
-  }
   const { locale } = localeCache
   return Number(n).toLocaleString(locale, {
     useGrouping: false

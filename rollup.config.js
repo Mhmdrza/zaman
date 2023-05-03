@@ -19,6 +19,7 @@ export default {
   plugins: [
     typescript({
       tsconfig: './tsconfig.json',
+      include: ['src/**/*'],
       exclude: ['**/__tests__', '**/*.test.*', 'client/**/*', '**/*.cy.tsx'],
       compilerOptions: {
         types: []

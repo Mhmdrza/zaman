@@ -14,3 +14,14 @@ build
 .cache/
 .rpt2_cache
 help
+
+commitlint.config.js
+CONTRIBUTING.md
+vite.config.ts
+.travis.yml
+.husky/
+.rollup.cache/
+.github/
+jest.config.ts
+rollup.config.js
+cypress.config.ts
